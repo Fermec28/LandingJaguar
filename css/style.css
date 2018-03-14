@@ -1,23 +1,45 @@
+
 body, html {
     height: 100%;
-    margin: 0;
+   	margin: 0;
+
 }
 
-.bg {
-    /* The image used */
-    background-image: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg");
+html{
 
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg") no-repeat center center ;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	
 }
 
 
-body{
 
-	background-repeat: no-repeat;	
+.container{
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	color: white;
+	padding: 30px 20px;
+	border-radius:10px;
+	width: 100%;
+	border-radius: 15px;
+	position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+a {
+
+	border: 5px red;
+	background-color: #DB3030;
+	color: white;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 600px){
+	.container {
+		width: 600px;
+
+	}
 }
